@@ -148,8 +148,8 @@
           <h2>Gallery</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-3">
+      <div class="row justify-content-center ">
+        <div class="col-md-3 ">
          <a href="#">
            <img src="img/gallery/thumbnail/gallery1.jpg" alt="Gambar 1" class="img-fluid gallery-img">
          </a> 
@@ -169,21 +169,13 @@
             <img src="img/gallery/thumbnail/gallery4.jpg" alt="Gambar 4" class="img-fluid  gallery-img">
           </a> 
          </div>
-         <div class="col-md-3">
-          <a href="#">
-            <img src="img/gallery/thumbnail/gallery5.jpg" alt="Gambar 5" class="img-fluid  gallery-img">
-          </a> 
-         </div>
+      
          <div class="col-md-3">
           <a href="#">
             <img src="img/gallery/thumbnail/gallery6.jpg" alt="Gambar 6" class="img-fluid  gallery-img">
           </a> 
          </div>
-         <div class="col-md-3">
-          <a href="#">
-            <img src="img/gallery/thumbnail/gallery7.jpg" alt="Gambar 7" class="img-fluid  gallery-img">
-          </a> 
-         </div>
+         
          <div class="col-md-3">
           <a href="#">
             <img src="img/gallery/thumbnail/gallery8.jpg" alt="Gambar 8" class="img-fluid  gallery-img">
@@ -258,7 +250,13 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-    AOS.init();
+      
+
+    AOS.init({
+    once: true,
+    duration : 2000,
+    });
+
     </script>
 
     <script>
