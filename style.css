@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(#000046, #1cb5e0);
+  background: #3b8686;
 }
 
 .jumbotron {
@@ -8,4 +8,12 @@ body {
 
 section {
   padding-top: 5rem;
+}
+
+.galery-img {
+  width: 100%;
+}
+
+#contact {
+  text-align: left;
 }
